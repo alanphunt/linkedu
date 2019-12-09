@@ -1,0 +1,272 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans+Condensed:300|Raleway|Source+Sans+Pro:300|Yantramanav:300');
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Yantramanav', sans-serif;
+*/
+
+@font-face{
+    font-family: 'CollegeSlab';
+    src: url('fonts/CollegeSlabSC.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 9rem;
+    color: white;
+    font-family: 'CollegeSlab', serif;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#form1{
+    height: 100%;
+}
+
+#mastercontainer {
+    width: 100%;
+    height: 90%;
+    background: #ffffff url("images/background.jpg") no-repeat center;
+    background-size: cover;
+    padding: 0 5%;
+    position: relative;
+}
+
+#titles{
+    text-shadow: 0 4px 5px #000;
+}
+
+#formcontainer {
+    margin: 85px 0 0 0;
+    width: 25%;
+    min-width: 350px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 25px;
+    position: relative;
+    top: 0;
+    overflow: auto;
+    max-height: 350px;
+}
+
+#header{
+    height: 5%;
+    width: 100%;
+    padding: 0 5%;    
+    box-shadow: 0px 3px 5px #000;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#footer {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    bottom: 0;
+}
+
+#header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+#header ul li{
+    width: 12%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#header ul li a {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10%;
+        transition: .3s ease;
+    }
+
+#header ul li a:hover {
+        background-color: red;
+        color: white;
+        }
+
+#linkedlogo {
+        font-family: 'CollegeSlab', serif;
+        font-size: 3rem;
+        margin: 0 auto;
+        color: red;
+}
+
+#search{
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+.choose {
+    font-family: 'CollegeSlab', serif;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.choose:hover{
+    color: red;
+}
+
+.GoBack{
+    display: block;
+    float: right;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+input{
+    margin: 0 0 25px 0;
+}
+
+[type=submit]{
+    margin: 0;
+}
+
+#content{
+    padding: 2.5% 5%;
+    height: 90%;
+}
+
+.navlogo {
+    font-family: 'CollegeSlab', serif;
+    margin: 0 auto;
+    color: red;
+    font-size: 1.5rem;
+}
+
+#profile{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#picdiv{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+#infodiv{
+    width: 35%;
+    padding: 2% 5%;
+}
+
+#infodiv span{
+    margin-bottom: 15px;
+}
+
+.profilepic{
+    max-width: 325px;
+}
+
+span{
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+.info{
+    font-weight: normal;
+}
+
+#AsyncFileUpload1_ctl01{
+    width: 150px;
+    margin: 0 auto;
+}
+
+#h4, h4{
+    display: inline-block;
+    color: red;
+    font-family: 'CollegeSlab', serif;
+    margin-bottom: 25px;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+[type=submit]{
+    width: 85px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+}
+
+#moreInfo{
+padding: 0;
+
+}
+
+
+#comparecontainer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#stu1, #stu2 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    border: .5px solid red;
+}
